@@ -2,8 +2,10 @@
 int main()
 {
     int i=0;
-    int arr[5]={1, 2, 3, 4, 5};
-    while(i<5)
+    int arr[]={1, 2, 3, 4, 5};
+    int len;
+    len=sizeof(arr)/sizeof(arr[0]);
+    while(i<len)
     {
         printf("%d",arr[i]);
         i++;

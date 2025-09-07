@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 int n, i;
-unsigned long long a=0, b=1, c;
+int a=0, b=1, c;
 printf("Entrer le nombre de termes : ");
 scanf("%d", &n);
 for (i=0; i<n; i++) {

@@ -8,7 +8,7 @@ for (i=0; i<n; i++) {
 if (i==0) c=0;
 else if(i==1) c=1;
 else { c=a+b; a=b; b=c; }
-printf("%llu ", c);
+printf("%d ", c);
 }
 printf("\n");
 return 0;
